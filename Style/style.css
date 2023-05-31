@@ -1,0 +1,135 @@
+:root {
+    --global-primaty-color: #e178ff;
+    --global-secundary-color: #c65aef;
+    --global-tertiary-color: #911fd0;
+}
+
+* {
+    font-family: Helvetica;
+}
+
+.container {
+    background-color: #e178ff;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 1px 1px #911fd0;
+}
+
+.lista {
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    border-radius: 20px;
+    padding: 50px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.primeiro-texto {
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    text-shadow: 1px 1px #911fd0;
+}
+
+.input {
+    width: 50%;
+    height: 30px;
+    border-radius: 30px;
+    padding: 1%;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 25px;
+    color: black;
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+    text-decoration: none;
+    border: 0 none;
+    outline: 0;
+}
+
+.btn_Tarefa {
+    width: 15%;
+    height: 45px;
+    border: 0 none;
+    outline: 0;
+    color: black;
+    border-radius: 25px;
+    font-size: 20px;
+    margin-left: 2%;
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+
+
+.lista_Itens {
+    font-size: 30px;
+    text-align: left;
+    padding-left: 25px;
+    text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    border-radius: 30px;
+    color: black;
+    width: 90%;
+    height: 40px;
+    padding: 18px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.btn_Excluir {
+    align-items: right;
+    width: 15%;
+    height: 45px;
+    border: 0 none;
+    outline: 0;
+    color: black;
+    border-radius: 25px;
+    font-size: 20px;
+    margin-left: 2%;
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+
+.btn_Alterar {
+    width: 15%;
+    height: 45px;
+    border: 0 none;
+    outline: 0;
+    color: black;
+    border-radius: 25px;
+    font-size: 20px;
+    margin-left: 2%;
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+
+.btn_Confirmar {
+    width: 20%;
+    height: 45px;
+    border: 0 none;
+    outline: 0;
+    color: black;
+    border-radius: 25px;
+    font-size: 20px;
+    margin-left: 2%;
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+
+.input_Novo {
+    width: 50%;
+    height: 30px;
+    border-radius: 30px;
+    padding: 1%;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 25px;
+    color: black;
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+    text-decoration: none;
+    border: 0 none;
+    outline: 0;
+}
